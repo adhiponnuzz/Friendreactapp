@@ -5,13 +5,33 @@ import  'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Addfriend from './component/Addfriend';
 import Viewpost from './component/Viewpost';
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
 
     <>
+
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" exact element={<Addfriend/>}/>
+      <Route path="/view" exact element={<Viewpost/>}/>
+
+
+
+
+    </Routes>
     
-    <Addfriend/>
-    <Viewpost/>
+    
+    
+    
+    </BrowserRouter>
+    
+    
+    
+    
+
+    
     
     </>
 

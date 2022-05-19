@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Viewpost = () => {
 
@@ -20,6 +21,7 @@ const Viewpost = () => {
 
   return (
     <div>
+        <Navbar/>
 
 <div class="container">
     <div class="row">

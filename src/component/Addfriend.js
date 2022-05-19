@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Addfriend = () => {
 
@@ -43,6 +44,7 @@ const Addfriend = () => {
      
   return (
     <div>
+        <Navbar/>
 
 <div class="container">
     <div class="row">
